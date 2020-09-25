@@ -1,0 +1,129 @@
+.all{
+    background-color: gray;
+    height: 517px;
+    width: 300px;
+    margin-left: 309px;
+}
+p.dec-text {
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+}
+p.bin-text {
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+}
+p.oct-text {
+    font-size: 25px;
+    position: relative;
+    top: 13px;
+}
+p.hex-text {
+    font-size: 25px;
+    position: relative;
+    top: 13px;
+}
+.deci {
+    text-align: center;
+}
+.bin {
+    text-align: center;
+}
+.oct {
+    text-align: center;
+}
+.hex {
+    text-align: center;
+}
+input.dec {
+    padding: 6px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 20px;
+    width: 145px;
+}
+input.btn-bin {
+    padding: 6px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 20px;
+    width: 145px;
+}
+input.btn-oct {
+    padding: 6px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 20px;
+    width: 145px;
+}
+input.btn-hex {
+    padding: 6px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 20px;
+    width: 145px;
+}
+input.convert-btn {
+    font-size: 26px;
+    width: 152px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #f71717;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    left: 67px;
+    top: 4px;
+    color: green;
+}
+.key{
+    background-color:gray;
+    position: relative;
+    left: 685px;
+    width: 350px;
+    bottom: 501px;
+}
+#oc{
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 154px;
+    margin-left: 95px;
+}
+#de{
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 154px;
+    margin-left: 95px;
+}
+#hex{
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 154px;
+    margin-left: 95px;
+}
+#bn{
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 154px;
+    margin-left: 95px;
+}
+h3.digite {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -14px;
+    color: aliceblue;
+    font-weight: bolder;
+}
