@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="custom.css">
+    <title>All type Base Converter</title>
+</head>
+<body>
+    <div class="all">
+        <div class="deci">
+            <p class="dec-text">Decimal</p>
+            <input type="text" placeholder="Decimal" class="dec">
+        </div>
+        
+        <input type="button" onclick="convert()" value="Convert" class="convert-btn">
+        <div class="bin">
+            <p class="bin-text">Binary</p>
+            <input type="text" class="btn-bin" readonly placeholder="Binary">
+        </div>
+        <div class="oct">
+            <p class="oct-text">Octal</p>
+            <input type="text" class="btn-oct" readonly placeholder="Octal">
+        </div>
+        <div class="hex">
+            <p class="hex-text">Hexadecimal</p>
+            <input type="text" class="btn-hex" readonly placeholder="Hexadecimal">
+        </div>
+    </div>
+    <div class="key">
+        <h3 class="digite">Give your digite</h3>
+        <input id="de" type="text" placeholder="Decimal"><br><br>
+        <h3 class="digite">Binary</h3>
+        <input id="bn" type="text" placeholder="Binary"><br><br>
+        <h3 class="digite">Octal</h3>
+        <input id="oc" type="text" placeholder="Octal"><br><br>
+        <h3 class="digite">Hexa-Decimal</h3>
+        <input id="hex" type="text" placeholder="Hexa-Decimal"><br><br>
+    </div>
+    <script src="custom.js"></script>
+</body>
+</html>
